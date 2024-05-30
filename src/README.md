@@ -1,4 +1,6 @@
-Detección de Emails de Phising usando Machine Learning
+## Detección de Emails de Phising usando Machine Learning
+
+El objetivo del proyecto es detectar si un email es phising o no. Para ello tenemos un dataset con unos 82000 emails indicando si son phising o no.
 
 Datasets: *Al-Subaiey, A., Al-Thani, M., Alam, N. A., Antora, K. F., Khandakar, A., & Zaman, S. A. U. (2024, May 19). Novel Interpretable and Robust Web-based AI Platform for Phishing Email Detection. ArXiv.org. https://arxiv.org/abs/2405.11619*
 
@@ -12,6 +14,6 @@ Pasos seguidos en el proyecto:
 
 - Por último se ha probado con 3 modelos: Naive-Bayes, Regresión logistica y XGBoost.
 
-El modelos que mejor resultado da es XGBoost, pero con un coste computacional alto. El de regresión logística da prácticamente el mismo resultado con un coste computacional mucho menor.
+El modelo que mejor resultado da es XGBoost, pero con un coste computacional alto. El de regresión logística da prácticamente el mismo resultado con un coste computacional mucho menor.
 
 Los modelos estan guardados en la carpeta src/model en formato pickle.
